@@ -1,0 +1,21 @@
+{
+  "name": "servernode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azuel97/servernode.git"
+  },
+  "author": "Azuel97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azuel97/servernode/issues"
+  },
+  "homepage": "https://github.com/Azuel97/servernode#readme"
+}

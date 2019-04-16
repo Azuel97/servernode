@@ -2,7 +2,7 @@
 // modulo http
 
 const http = require('http');
-const port = 8081;
+const port = 7070;
 
 const server = http.createServer(function(req,res) {
     // Fa vedere url richiesto
@@ -15,16 +15,11 @@ const server = http.createServer(function(req,res) {
     } else if (req.url === '/api') {
         res.writeHead(200, {'Content-Type' : 'text/html'});
         res.write(JSON.stringify(
-            [
-                {
-                    "nome": "Mario",
-                    "cognome": "Rossi"
-                },
-                {
-                    "nome": "Ken",
-                    "cognome": "Moris"
-                },
-            ]
+            {
+                "version": "0.1",
+                "nome": "Mia API personale",
+                "data": "2019-04-16"
+            }
         ));
         res.end();
     } else {
