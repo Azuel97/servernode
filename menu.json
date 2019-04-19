@@ -7,11 +7,11 @@
     {
         "item": "Contatti",
         "path": "/contatti",
-        "peso": 0
+        "peso": 1
     },
     {
         "item": "Blog",
         "path": "/blog",
-        "peso": 0
+        "peso": 2
     }
 ]
