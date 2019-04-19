@@ -13,5 +13,10 @@
         "item": "Blog",
         "path": "/blog",
         "peso": 2
+    },
+    {
+        "item": "Progetti",
+        "path": "/progetti",
+        "peso": 3
     }
 ]

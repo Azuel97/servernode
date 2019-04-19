@@ -2,6 +2,7 @@
        "nav": {
         "name": "Azuel Galitto",
         "color": "lightblue",
-        "login": false
+        "login": false,
+        "font": "italic"
     }
 }
