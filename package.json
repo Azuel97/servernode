@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node dev.js",
+    "express": "node express.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Azuel97/servernode/issues"
   },
-  "homepage": "https://github.com/Azuel97/servernode#readme"
+  "homepage": "https://github.com/Azuel97/servernode#readme",
+  "dependencies": {
+    "experss": "^1000.0.0"
+  }
 }
