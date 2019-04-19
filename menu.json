@@ -1,0 +1,17 @@
+[
+    {
+        "item": "Chi sono",
+        "path": "/chi-sono",
+        "peso": 0
+    },
+    {
+        "item": "Contatti",
+        "path": "/contatti",
+        "peso": 0
+    },
+    {
+        "item": "Blog",
+        "path": "/blog",
+        "peso": 0
+    }
+]
