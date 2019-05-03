@@ -2,12 +2,21 @@ const express = require('express')
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('Ciao, da personaggi')
+    const query = req.query
+    let msg = 'Ciao'
+
+    //console.log('RES', query)
+
+    if(query.sesso === 'm') {
+        msg = `${msg} bel uomo`
+    }
+    if(query.colore === 'rosso'){
+        msg = `${msg} ${query.colore} `
+    }
+
+    res.send(msg)
 })
 
-// router.get('/personaggi', (req, res) => {
-//     res.send('Personaggi')
-// })
 
 // Esporto come modulo
 module.exports = router
