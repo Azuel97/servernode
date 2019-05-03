@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     if(query.sesso === 'm') {
         msg = `${msg} bel uomo`
     }
-    if(query.colore === 'rosso'){
+    if(query.colore){
         msg = `${msg} ${query.colore} `
     }
 
