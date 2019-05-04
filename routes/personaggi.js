@@ -12,8 +12,8 @@ router.get('/', (req, res) => {
             return personaggio.lastname === query.lastname
         })
     }
-
-    res.send(personaggi)
+    
+    res.send(personaggi)   
     
 })
 
