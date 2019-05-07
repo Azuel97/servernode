@@ -34,10 +34,15 @@ router.get('/', (req, res, next) => {
 
 // Params
 //http://localhost:7070/personaggi/9
+// Passo una variabile id al nostro url
 router.get('/:id/', (req, res) => {
-  const id = req.params.id
-  console.log('ID: ', id)
-  res.send(`personaggio id: ${id}`)
+    // Converto la stringa passata da req.param.id in un numero
+    const id = Number(req.params.id)
+    let personaggi = characters.characters
+  
+    res.json(personaggi.filter(personaggio => personaggio.id === id))
+
+    console.log('ID : ', id)
 })
 
 module.exports = router
