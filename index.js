@@ -5,7 +5,7 @@ const users = require('./routes/users')  // Importo da route gli users
 const personaggi = require('./routes/personaggi')  // Importo da route i personaggi
 let port = process.argv[2] || 8080
 
-// ----------------------------------------------  Connesione e gestione di MongoDB --------------------------------------------------------
+/* ----------------------------------------------  Connesione e gestione di MongoDB --------------------------------------------------------
 
 
 const MongoClient = require('mongodb').MongoClient;  // Importo la classe mongodb.MongoClient
@@ -67,7 +67,7 @@ client.connect(err => {
 });
 
 
-// -----------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
@@ -95,4 +95,4 @@ app.use((req, res) => {
 
 
 app.listen(port)
-//console.log(`Server running at http://127.0.0.1:${port}/`);
+console.log(`Server running at http://127.0.0.1:${port}/`);
